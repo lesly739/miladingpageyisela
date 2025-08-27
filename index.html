@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <details class="accordion-nav">
+                <summary class="nav-link">Menú</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./y1.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Yisela Rivera Ballen</h1>
+            <p class="profile-summary">
+                “Soy una persona responsable, organizada y comprometida con mis actividades. Me gusta aprender cosas nuevas y trabajar en equipo, aportando ideas y apoyando a los demás. Me caracterizo por ser respetuosa, puntual y dedicada, siempre buscando dar lo mejor en cada tarea que realizo
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:riveraballenyiselaandrea@gmail.com">riveraballenyiselaandrea@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573123420331" target="_blank" rel="noopener noreferrer">+57 3123420331</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Bachillerato | CASD</h4>
+                    <p>Especializandonos en medicina | Año de Finalización: 2025</p>
+                    <P>Descripción:Estudiar Promoción en Salud es formarse para cuidar el bienestar de las personas, aprendiendo a prevenir enfermedades, fomentar hábitos saludables y trabajar con la comunidad para mejorar su calidad de vida.</P>
+                </li>
+                <li>
+                    <h4>Preparacion de alimentos |Pikarfood </h4>
+                    <p>Preparar alimentos ricos en carbohidratos y grasas| ACTUALMENTE EN 2025</p>
+                    <p>Descripción:armar hamburguesas, perros calientes, sándwiches, papas fritas y demás productos del menú siguiendo los estándares de la empresa.</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4> Asistente en caja |Pikarfood </h4>
+                    <p>Marzo 2023 - Actualmente 2025 <br>Descripción:cobrar en efectivo, tarjeta o medios electrónicos, entregar el cambio y emitir facturas.</p>
+                </li>
+                <li>
+                    <h4>Mesera y ayudante en cocina | Pikarfood</h4>
+                    <p>Marzo 2023 - Presente <br>Descripción:El trabajo en un restaurante de comidas rápidas consiste en brindar atención ágil y cordial a los clientes, garantizando la calidad de los productos y un buen servicio..</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Habilidades culinarias (repostería, preparación de alimentos)</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Sociabilidada</li>
+                    <li>Capacidad para adaptarse en nuevos escenarios</li>
+                    <li>Capacidad para manejar problemas de imprevisto</li>
+                    <li>Atención al detalle</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./y2.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.facebook.com/share/1EbtrCaauo/" target="_blank" class="linktree-link"><strong>FACEBOOK</strong></a>
+            <a href="https://www.instagram.com/andre_arivera1418?igsh=ZXR4YThkMWV4eWxp" target="_blank" class="linktree-link"><strong>INSTAGRAM</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Yisela Rivera <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
